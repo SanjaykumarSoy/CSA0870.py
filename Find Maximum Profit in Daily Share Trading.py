@@ -11,6 +11,6 @@ def max_profit(prices):
     
     return max_profit
 
-# Example Usage
+
 prices = [7, 1, 5, 3, 6, 4]
-print(max_profit(prices))  # Output: 7
+print(max_profit(prices))  
