@@ -4,7 +4,7 @@ def letter_combinations(digits):
     if not digits:
         return []
     
-    phone_letters = {
+        letters = {
         '2': 'abc',
         '3': 'def',
         '4': 'ghi',
@@ -15,9 +15,9 @@ def letter_combinations(digits):
         '9': 'wxyz'
     }
     
-    return [''.join(comb) for comb in product(*(phone_letters[d] for d in digits))]
+    return [''.join(comb) for comb in product(*(letters[d] for d in digits))]
 
-# Test the function with the provided input
+
 digits = "23"
 output = letter_combinations(digits)
 print(output)
