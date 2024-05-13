@@ -4,7 +4,7 @@ def letter_combinations(digits):
     if not digits:
         return []
     
-        letters = {
+    letters = {
         '2': 'abc',
         '3': 'def',
         '4': 'ghi',
