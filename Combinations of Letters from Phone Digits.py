@@ -1,6 +1,6 @@
 from itertools import product
 
-def letter_combinations(digits):
+def letter_com(digits):
     if not digits:
         return []
     
@@ -19,5 +19,5 @@ def letter_combinations(digits):
 
 
 digits = "23"
-output = letter_combinations(digits)
+output = letter_com(digits)
 print(output)
